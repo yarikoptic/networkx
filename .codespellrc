@@ -1,4 +1,9 @@
 [codespell]
-skip = .git,*.pdf,*.svg
-# 
-# ignore-words-list = 
+skip = .git,*.pdf,*.svg,*.shp.xml,*.geojson
+# dout,nd,ans,childs,numer,te,wth,Equil - some variables/attributes/names
+# ist - part of citeseerx.ist.psu.edu
+# coo - sparse matrix format
+# Hax,Pich,Stoer,Warrent - names
+# INFOR,Commun - publication shortname
+# recuse - rare word
+ignore-words-list = dout,nd,ans,childs,alledges,inout,ist,coo,numer,te,hax,nin,nout,pich,stoer,wth,infor,recuse,clos,thi,commun,ser,equil,warrent

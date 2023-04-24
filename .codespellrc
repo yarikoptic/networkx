@@ -1,5 +1,7 @@
 [codespell]
 skip = .git,*.pdf,*.svg,*.shp.xml,*.geojson
+# some full lines to skip
+exclude-file = .codespell-ignorelines
 # dout,nd,ans,childs,numer,te,wth,Equil - some variables/attributes/names
 # ist - part of citeseerx.ist.psu.edu
 # coo - sparse matrix format
